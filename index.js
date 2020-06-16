@@ -31,4 +31,4 @@ app.get("/", (req, res) => {
 
 
 
-app.listen(5000, () => console.log('listen'));
+app.listen(process.env.PORT || 5000, () => console.log('listen'));
